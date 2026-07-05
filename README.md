@@ -19,46 +19,75 @@ Siga os passos abaixo para clonar o repositório, configurar o ambiente virtual 
 ### 1. Clonar o Repositório
 
 Abra o seu terminal (ou prompt de comando) e execute:
+
 ```bash
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 cd seu-repositorio
+```
 
-## DOS (Windows)
+### 2. Configurando o Ambiente Virtual
 
-# Criar o ambiente virtual
+#### Windows (DOS)
+
+Criar o ambiente virtual
+
+```bash
 python -m venv venv
+```
 
-# Ativar o ambiente virtual
+Ativar o ambiente virtual
+
+```bash
 venv\Scripts\activate
+```
 
-## PowerShell (Windows0
+#### Windows (PowerShell)
 
-# Criar o ambiente virtual
+Criar o ambiente virtual
+
+```bash
 python -m venv venv
+```
 
-# Ativar o ambiente virtual
+Ativar o ambiente virtual
+
+```bash
 .\venv\Scripts\Activate.ps1
+```
 
 Obs: Se o PowerShell bloquear a execução do script, execute o comando Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process antes de tentar ativar.
 
-## Linux / macOS
+### Linux / macOS
 
-# Instalar suporte a venv (necessário em algumas distribuições Linux como Ubuntu)
+Instalar suporte a venv (necessário em algumas distribuições Linux como Ubuntu)
+
+```bash
 sudo apt install python3-venv  # Execute se necessário
+```
 
-# Criar o ambiente virtual
+Criar o ambiente virtual
+```bash
 python3 -m venv venv
+```
 
-# Ativar o ambiente virtual
+Ativar o ambiente virtual
+```bash
 source venv/bin/activate
+```
 
 ### 3. Instalação das Dependências e do Jupyter
 
 Com o seu ambiente virtual devidamente ativado (você verá o indicador `(venv)` no terminal), atualize o gerenciador de pacotes e instale as ferramentas do projeto junto com o Jupyter Notebook:
 
-```bash
-# Atualizar o pip
-pip install --upgrade pip
 
-# Instalar o Jupyter e todas as bibliotecas do projeto
+Atualizar o pip
+
+```bash
+pip install --upgrade pip
+```
+
+Instalar o Jupyter e todas as bibliotecas do projeto
+
+```bash
 pip install notebook Biopython ProDy pandas networkx matplotlib seaborn py3dmol scikit-learn plotly
+```
