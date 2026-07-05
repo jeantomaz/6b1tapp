@@ -22,7 +22,7 @@ Abra o seu terminal (ou prompt de comando) e execute:
 
 ```bash
 git clone https://github.com/jeantomaz/6b1tapp.git
-cd seu-repositorio
+cd 6b1tapp
 ```
 
 ### 2. Configurando o Ambiente Virtual
