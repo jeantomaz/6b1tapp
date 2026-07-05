@@ -57,7 +57,7 @@ Ativar o ambiente virtual
 
 Obs: Se o PowerShell bloquear a execução do script, execute o comando Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process antes de tentar ativar.
 
-### Linux / macOS
+#### Linux / macOS
 
 Instalar suporte a venv (necessário em algumas distribuições Linux como Ubuntu)
 
