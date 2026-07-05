@@ -89,5 +89,5 @@ pip install --upgrade pip
 Instalar o Jupyter e todas as bibliotecas do projeto
 
 ```bash
-pip install notebook Biopython ProDy pandas networkx matplotlib seaborn py3dmol scikit-learn plotly
+pip install notebook Biopython pandas networkx matplotlib seaborn py3dmol scikit-learn plotly
 ```
