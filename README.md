@@ -21,7 +21,7 @@ Siga os passos abaixo para clonar o repositório, configurar o ambiente virtual 
 Abra o seu terminal (ou prompt de comando) e execute:
 
 ```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+git clone https://github.com/jeantomaz/6b1tapp.git
 cd seu-repositorio
 ```
 
